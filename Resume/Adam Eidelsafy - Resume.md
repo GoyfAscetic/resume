@@ -2,7 +2,7 @@
 
 | Adam Eidelsafy | Astoria, NY |
 | :----          | :---- |
-| **Software Engineer** | **(810) 771-8685 aheidels@gmail.com** |
+| **(810) 771-8685** | **aheidels@gmail.com** |
 
 ## EXPERIENCE 
 ### NYSHEX *\- Lead Software Engineer* 
