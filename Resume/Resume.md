@@ -43,7 +43,8 @@ May 2011 \- Jan 2013 (Grand Rapids, MI)
 ## EDUCATION
 ### Michigan Tech University, Houghton, MI
 *B.S Software Engineering*
-## **LEADERSHIP Magic Judges** *\- Area Judge* 
+## LEADERSHIP
+### **Magic the Gathering** *\- Tournament Referee* 
 Dec 2013 \- Present  
 - Directly manage 5 to 10 staff to run events with 10-130 attendees. 
 - Organize weekly training sessions which led to the certification of over ten new judges that support events in over 20 hobby stores. 
