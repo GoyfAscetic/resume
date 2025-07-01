@@ -21,7 +21,7 @@ Mar 2020 \- July 2022 (New York, NY)
 May 2018 \- Mar 2020 (New York, NY) 
 - Oversaw the team that developed Honest Building’s Bidding, Contracting, invoicing and Change Order tools using Java and MySQL
 - Lead a team of 11 Engineers to create Honest Building’s first two microservices to connect the platform to Ecrion and DocuSign 
-- Directed a team of four engineers to resolve \+300 bugs in one quarter spread across the four tools
+- Directed a team of four engineers that resolved \+300 bugs in one quarter 
 - Refactored critical database queries to run 25 times faster 
 ### **Appfigures** *\- Integrations Engineer* 
 Feb 2015 \- Feb 2018 (New York, NY) 
