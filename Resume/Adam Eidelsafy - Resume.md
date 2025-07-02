@@ -1,7 +1,7 @@
 # Adam Eidelsafy 
-| **Software Engineer** | **Astoria, NY**        |
-| :---------------------| :--------------------- | 
-| **(810) 771-8685**    | **aheidels@gmail.com** |
+| **Astoria, NY**        | **(810) 771-8685**     |
+| :----------------------| :--------------------- | 
+| **aheidels@gmail.com** | [LinkedIn Profile](https://www.linkedin.com/in/adam-eidelsafy-81025227/) |
 
 ## EXPERIENCE 
 ### NYSHEX \- *Lead Software Engineer* 
@@ -33,10 +33,10 @@ Jan 2013 \- Feb 2015 (Detroit, MI)
 May 2011 \- Jan 2013 (Grand Rapids, MI) 
 - Customized software to match the order fulfillment workflow of six client companies with SQL databases and stored procedures. 
 - Created the first unit testing tools for the company’s proprietary language using SQL to store and reproduce messages sent between applications.
-## **PROGRAMMING LANGUAGES** 
+## PROGRAMMING LANGUAGES 
 | PostgreSQL | Java     | Python            |
 |:----------:|:--------:|:-----------------:|
-| **C#**     | **MySQL**| **Ruby on Rails** | 
+| **MySQL**  | **C#**   | **Ruby on Rails** | 
 ## EDUCATION
 ### Michigan Tech University, Houghton, MI \- *B.S Software Engineering*
 ## LEADERSHIP
