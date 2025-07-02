@@ -1,5 +1,3 @@
-
-
 # Adam Eidelsafy 
 | **Software Engineer** | **Astoria, NY** |
 | :----          | :---- | 
