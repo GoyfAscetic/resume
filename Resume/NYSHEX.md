@@ -4,14 +4,17 @@
 ### Situation
 - Our platform had two basic roles for buyers and sellers of cargo space
 - The platform had specific features for each side of the cargo space transactions
-- But for about a third of our customers had a need for both feature sets 
+- But for about a third of our customers, specifically NVOs, had a need for both feature sets 
 - The previous solution was to give these customer two different accounts
   - One to grant access to all the buyer features
   - Another for access to all the seller features
 ### Task
-
+- To improve the NVO expierence  
+### Action
+#### Team Lead
+- Directed the creation of NYSHEX's first site wide smoke test
 #### Staff Engineer
-- Architeched a plan to combine account data across 40 databases with a strategy to rollback all changes without trancations
+- Architeched a plan to combine account data across 40 databases with a strategy to rollback all changes
 - Experience the entire platform through one account instead of two
 
 ## Engineerined a new Data pipeline to improve Contract Progress Accuracy for over 1 million transactions
