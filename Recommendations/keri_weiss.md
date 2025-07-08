@@ -1,24 +1,23 @@
-Keri has been an ace for front end engineering, in all my years working with her. 
-She strikes a great balance between delivering value today while making it easier to deliver value going forward.
-
-
-
-
 ### Opening
-- I've had the pleasure of working with Adam for over three years. 
-- Throughout, he’s stood out as a backend lead who not only delivers technically excellent work, but does so in a way that makes life easier for everyone around him.
+- Keren (aka Keri) has been an ace of front end engineering, in all my years working with her. 
+- She strikes a great balance between delivering value today while making it easier to deliver value going forward.
 
 ### Technical
-- Adam has a deep understanding of how backend systems support both product goals and user experience. 
-- He writes clean, well-structured APIs that are intuitive to consume on the frontend, and always aligned with the broader business context. 
-- He asks smart questions, thinks several steps ahead, and consistently ensures that we’re building the right thing - and building it right.
+- She has quickly learned complicated legacy javascript codebases to deliver emergency performance enhancements
+- I've worked with her to iterate and launch brand new products in just 45 days
+- Keri has both flagged and rescued projects that gone off track
+- She thinks through many UI edge cases that others overlook leading to more complete releases.
 
 ### Interpersonal
-- He’s fast, thoughtful, and deeply collaborative. 
-- He brings strong opinions to the table but always listens and adapts when others bring good ideas. 
-- He communicates clearly, works with care, and genuinely enjoys what he does, which is both obvious and contagious.
+- She is a constantly using code reviews to help educate other engineers
+- She has been the voice of reason in many technical disucssion even when the outcome creates more work for her
+- She raises concerns in way that is both timely and calaborative towards a solution that balances  
+- She successfuly convinces leadership to adopt new initiatives such as ephemeral enviroments, paying down tech debt, and integrating websockets into the product
 
 ### Conclusion
-In short, Adam is the kind of engineer who makes a team better, both technically and interpersonally. I’d jump at the chance to work with him again.
+- Even though Keri has not been in the industry a long time, she performs far above what I expect of even Senior Engineers.
+- Her ablity to create, design, and communicate her work, is truly special.
+- Anyone would be lucky to work with her I hope that someday I may once again be so lucky
+
 
 
