@@ -7,9 +7,9 @@
 ### NYSHEX \- *Lead Software Engineer* 
 July 2022 \- Present (New York, NY) 
 - Lead a team of 8 engineers to overhaul the contract performance charts used by Maersk & MSC 
-- Developed software to ingest tracking data for 500,000 Hapag-Lloyd sailings 
+- Developed data ingestion pipeline that processed over 500,000 in under a minute on a daily basis
 - Oversaw the initiative to merge two tightly coupled microservices into one without issue 
-- Directed the merger DSV’s two account combining data across 40 microservices 
+- Directed the merging of two enterprise client accounts by combining data across 40 databases 
 ### Procore (acquired Honest Buildings) \- *Senior Software Engineer* 
 Mar 2020 \- July 2022 (New York, NY) 
 - Responsible for enhancing the backend of Procore’s Bidding tool using Ruby on Rails and PostgreSQL Oversaw the development of a tool to organize over 24 million bids. 
