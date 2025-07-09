@@ -6,9 +6,10 @@
 ## EXPERIENCE 
 ### NYSHEX \- *Lead Software Engineer* 
 July 2022 \- Present (New York, NY) 
-- Lead a team of 8 engineers to overhaul the contract performance charts used by Maersk & MSC 
-- Developed data ingestion pipeline that processed over 500,000 in under a minute on a daily basis
-- Oversaw the initiative to merge two tightly coupled microservices into one without issue 
+- Led
+- Pioneerned a new strategy to safely deploy thirteen rearchitected features simultaneously
+- Created a data ingestion pipeline that processed over 500,000 in under a minute on a daily basis
+- Developed a report to consolidates all data for a client, securring $450,000/year in revenue
 - Directed the merging of two enterprise client accounts by combining data across 40 databases 
 ### Procore (acquired Honest Buildings) \- *Senior Software Engineer* 
 Mar 2020 \- July 2022 (New York, NY) 
