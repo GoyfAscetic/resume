@@ -8,7 +8,7 @@
 July 2022 \- Present (New York, NY) 
 - Led
 - Pioneerned a new strategy to safely deploy thirteen rearchitected features simultaneously
-- Created a data ingestion pipeline that processed over 500,000 in under a minute on a daily basis
+- Created a data ingestion pipeline that on a daily basis processes over 74,000,000 records in 5 mins
 - Developed a report to consolidates all data for a client, securring $450,000/year in revenue
 - Directed the merging of two enterprise client accounts by combining data across 40 databases 
 ### Procore (acquired Honest Buildings) \- *Senior Software Engineer* 
