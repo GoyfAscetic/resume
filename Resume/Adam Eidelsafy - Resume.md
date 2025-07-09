@@ -6,11 +6,11 @@
 ## EXPERIENCE 
 ### NYSHEX \- *Lead Software Engineer* 
 July 2022 \- Present (New York, NY) 
-- Rearchitected thirteen features with Kafka, Spring Boot, & Postgres to reduce the time needed to produce a chart from 60secs to 300ms
-- Pioneered a new strategy to deploy redesigned features simultaneously without any disruption
-- Created a data ingestion pipeline with Python that processes over 74,000,000 records in 5 mins everyday
-- Developed a report to consolidates all data for a client, securring $450,000/year in revenue
-- Directed a team of eight engineers to merge of two enterprise client accounts by combining data across 40 databases 
+- Rearchitected thirteen endpoints with Kafka, Spring Boot, & Postgres to reduce average response time from 30secs to 300ms
+- Pioneered a new strategy to deploy thirteen redesigned features simultaneously without any disruption
+- Created a data ingestion pipeline with Python that processes +14,000,000 records/min every day
+- Developed a report to consolidates all account data for a client, securring $450,000/year in revenue
+- Directed a team of eight engineers to merge of two enterprise client accounts by safely combining data across 40 databases 
 ### Procore (acquired Honest Buildings) \- *Senior Software Engineer* 
 Mar 2020 \- July 2022 (New York, NY) 
 - Responsible for enhancing the backend of Procore’s Bidding tool using Ruby on Rails and PostgreSQL Oversaw the development of a tool to organize over 24 million bids. 
