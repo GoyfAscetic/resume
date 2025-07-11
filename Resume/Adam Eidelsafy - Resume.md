@@ -6,11 +6,11 @@
 ## EXPERIENCE 
 | NYSHEX \- *Lead Software Engineer* | July 2022 \- Present (New York, NY) |
 | :----------------------| :--------------------- | 
-- Redesigned 13 features with Kafka, Spring, & Postgres to improve response time from 30s to 300ms.
-- Pioneered a new strategy to deploy 13 redesigned features simultaneously without issue
+- Redesigned 13 features with Kafka, Spring, & Postgres, improving response time from 30s to 300ms.
+- Introduced a new strategy to deploy 13 redesigned features simultaneously without issue
 - Built a Python data ingestion pipeline that processes +14,000,000 records/min every day
 - Developed a report for all client account data, securing $450,000/year in revenue
-- Directed a team of eight engineers to merge two enterprise client accounts by safely combining data across 40 databases
+- Directed eight engineers to merge two enterprise accounts by combining data in 40 databases
 
 ### Procore (acquired Honest Buildings) \- *Senior Software Engineer* 
 Mar 2020 \- July 2022 (New York, NY) 
