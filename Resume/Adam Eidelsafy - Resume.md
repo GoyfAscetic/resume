@@ -4,13 +4,14 @@
 | **aheidels@gmail.com** | [LinkedIn Profile](https://www.linkedin.com/in/adam-eidelsafy-81025227/) |
 
 ## EXPERIENCE 
-### NYSHEX \- *Lead Software Engineer* 
-July 2022 \- Present (New York, NY) 
-- Rearchitected thirteen endpoints with Kafka, Spring Boot, & Postgres to reduce average response time from 30secs to 300ms
-- Pioneered a new strategy to deploy thirteen redesigned features simultaneously without any disruption
-- Created a data ingestion pipeline with Python that processes +14,000,000 records/min every day
-- Developed a report to consolidates all account data for a client, securring $450,000/year in revenue
-- Directed a team of eight engineers to merge of two enterprise client accounts by safely combining data across 40 databases 
+| NYSHEX \- *Lead Software Engineer* | July 2022 \- Present (New York, NY) |
+| :----------------------| :--------------------- | 
+- Redesigned 13 features with Kafka, Spring, & Postgres to improve response time from 30s to 300ms.
+- Pioneered a new strategy to deploy 13 redesigned features simultaneously without issue
+- Built a Python data ingestion pipeline that processes +14,000,000 records/min every day
+- Developed a report for all client account data, securing $450,000/year in revenue
+- Directed a team of eight engineers to merge two enterprise client accounts by safely combining data across 40 databases
+
 ### Procore (acquired Honest Buildings) \- *Senior Software Engineer* 
 Mar 2020 \- July 2022 (New York, NY) 
 - Responsible for enhancing the backend of Procore’s Bidding tool using Ruby on Rails and PostgreSQL Oversaw the development of a tool to organize over 24 million bids. 
