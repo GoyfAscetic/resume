@@ -4,8 +4,8 @@
 | **aheidels@gmail.com** | [LinkedIn Profile](https://www.linkedin.com/in/adam-eidelsafy-81025227/) |
 
 ## EXPERIENCE 
-| NYSHEX \- *Lead Software Engineer* | July 2022 \- Present (New York, NY) |
-| :----------------------| :--------------------- | 
+| NYSHEX | *Lead Software Engineer* | July 2022 \- Present (New York, NY) |
+| :----------------------| :--------------------- | :--------------------- | 
 - Redesigned 13 features with Kafka, Spring, & Postgres, improving response time from 30s to 300ms.
 - Introduced a new strategy to deploy 13 redesigned features simultaneously without issue
 - Built a Python data ingestion pipeline that processes +14,000,000 records/min every day
