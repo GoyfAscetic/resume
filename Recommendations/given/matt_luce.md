@@ -1,0 +1,5 @@
+- He excels at enabling external connections to our platform
+- He Standardized access across 40 microservices
+- He led platform wide upgrade to Spring Boot 3 across 40 microservices
+- He gives effective feedback even to his peer which is super rare
+- 
