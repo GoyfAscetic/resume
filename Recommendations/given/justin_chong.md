@@ -3,5 +3,9 @@
 - He stepped up and completed an emergency refactor of a Contract Ingestion System to reduce the runtime from 10mins/contract to 30secs/contract
 - Without guidance Justin is able to quickly adapt his coding style to coding stadards of every codebase he worked on.
 - His communication is clear and concise whether he's discussing his detailed designs or setback with emergency code optimization
-- On top of technical skill he is joy to work with.
+- On top of his technical skill he is joy to work with.
+- His composure consistently source of calm for the rest of the team even when we are trying to overcome difficult problems or deadlines
+- His deep expertise is only matched by his empathy for his fellow engineers and how they approach worm differently
+- I can trust Justin to tell me about any project challenges like it is which enables me to adjust effectively and swiftly
+- If the engineers I've led were tracks on an album Justin would be on the greatest hits.
 
