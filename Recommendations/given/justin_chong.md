@@ -1,11 +1,5 @@
-- What I appreciate most about Justin is his ability to adjust his contributions to meet the challenge in front of him
-- He single-handedly design and deliver a system that categorize millions of routes multiple times a second
-- He stepped up and completed an emergency refactor of a Contract Ingestion System to reduce the runtime from 10mins/contract to 30secs/contract
-- Without guidance Justin is able to quickly adapt his coding style to coding stadards of every codebase he worked on.
-- His communication is clear and concise whether he's discussing his detailed designs or setback with emergency code optimization
-- On top of his technical skill he is joy to work with.
-- His composure consistently source of calm for the rest of the team even when we are trying to overcome difficult problems or deadlines
-- His deep expertise is only matched by his empathy for his fellow engineers and how they approach worm differently
-- I can trust Justin to tell me about any project challenges like it is which enables me to adjust effectively and swiftly
-- If the engineers I've led were tracks on an album Justin would be on the greatest hits.
+Like an onion, Justin's excellence adds layers as time goes on. In my three years at NYSHEX as Justin's team lead, what always surprised me was the way he exceeded any challenge put in front of him. It doesn't matter if it's written in Java, Node, or even Python, Justin consistently scaled up our tech stack to handle NYSHEX's high-volume production loads. He single-handedly designed and delivered a system that categorized millions of shipping routes multiple times a second. When our system buckled under the weight of hundreds of contracts each taking 10 minutes to ingest, he stepped up and reduced each contract ingestion from 10 minutes to 30 seconds.
 
+It also helps that Justin is a joy to work with. He seamlessly adapts his coding style to align with the codebase's best practices. Despite any problem or deadline, Justin's composure sets an example that calms the whole team. His deep expertise is only matched by his empathy for his fellow engineers and how they work. From discussing his detailed designs or emergency setbacks, Justin's communication is clear and concise. Whenever I needed someone to tell me like it is, I turned to Justin. His insight has helped me adjust project scope and resources to hit key deadlines.
+
+If the engineers I've led were tracks on an album, Justin is easily one of the greatest hits. So if he comes calling, trust me when I say he's worth a listen.
