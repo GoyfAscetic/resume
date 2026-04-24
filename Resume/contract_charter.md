@@ -27,8 +27,9 @@ These charts try to offer flexibility to shipping customer to breakdown contract
 - One Contract has many commitments
 - Commitments can start and end at anytime during a Contract's duration
 - Commitments have their own **Milestone** and **Frequency** the differ from the Contract
-- Commitments are broken down in two different ways
-  - 
+- Commitments connect to Bo0ookings in teo different wayss
+  - Using **Lanes** using origin/destination port pairs on **Bookings** to connect to TEUs
+  - Using **Sailings** using Sailing records to connect between  
 
 
 ## Chart Structure
