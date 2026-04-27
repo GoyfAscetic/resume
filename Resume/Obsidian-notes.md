@@ -1,0 +1,147 @@
+- An Agreement between a Shipper and a Carrier to 
+	- A Shipper **requests** for space to move some number of boxes from a Place of Receipt to a Place of Delivery
+	- Once the Carrier gets the request but before the boxes are confirmed they are left in a **pending**
+	- The Carrier either **confirms** or **rejects** the request for space
+	- Then once confirmed the number of boxes **confirmed** leave or **Gate Out** of the port of load
+	- Once reach the *Place of Receipt* the Shipper fills the boxes with the product to be shipped
+	- Then the filled Boxes are returned, or **Gated In** to the *Port of Load*
+	- Then the Carrier **Loads** the **Gated In** Boxes on the a Vessel as the Booking's *Port of Load*
+	- Then the Vessel leaves the *Port of Load* with the boxes **Shipped on Board**
+	- Eventually the Vessel will also leave its ==Last Port of Load== for the rest of Voyage
+	- Then the Vessel will Arrive at the Booking's *Port of Discharge* for the Booking and drop off the Boxes
+	- Finally the Boxes will leave the *Port of Discharge* and be sent to the Booking's *Place of Delivery*
+	- At anytime Boxes can be **Canceled** from a Booking usually because some number of boxes needed to be moved **separately**
+
+## Integration
+- Microservices
+	- carrier-files-ms
+	- azure-servicebus-ms
+	- edi-ms
+- The need to acquire data from sources other than user input
+	- We need separate logic for each unique
+		- Data Source
+			- EDI
+			- Email
+			- Kafka Queue
+			- Slackbot Upload
+			- Web Crawler
+			- Azure Service bus
+		- Business providing the data
+			- Carrier
+				- Hapag
+				- MSC
+			- Shipper
+				- OEC
+		- Data Type
+			- Contract
+			- Booking
+			- Equipment
+			- Sailing
+
+## Ingestion
+- Microservices
+	- Booking-event-ms
+		- Bookings
+		- Equipment
+	- Contract-V2-ms
+		- Contract
+		- Commitment Group
+		- Lane
+	- Nominal-Performance-Ms
+		- Sailing
+- Is how we consolidate the external data into a standard data model
+	- Contract Ingestion in CV2
+	- Booking Ingestion in booking-event-ms
+	- Sailing Ingestion via the cursed Python Script
+- End result is to put all contract data into the one contract table and so on
+
+## Computation
+- Microservices
+	- nominal-performance
+	- db-centralizer (not a microservice)
+- Connect different entities together to provide users insights into their shipping data  
+
+## Display
+- Microservice
+	- nominal-performance
+	- espresso-bff
+	- bff-server
+- Customize the data and insight to match the different views we want to provide users
+## Access
+- Microservice
+	- auth-ms
+	- auth-role-ms
+- Determine which views and endpoints a user can access
+
+- Needs a scenario 
+	- Focus on the 2.0 charts 
+- Forgot the details of our last talk - happen to all of us
+## The goal of the Charts is to **organize** each Booking's TEUs to show **progress** toward the **goal** of Contract Completion 
+
+
+
+- **Organize**
+		- **Filter** what part of Contract Performance we want to focus on
+			- A single Contract
+			- Multiple Contracts (Custom Charts)
+			- Commitment Groups (a subset of a Contract's Allocation)
+				- Breakdown the space the Shipper has been granted on Carrier Ships (aka Allocation) over time
+				- Each Contract Can breakdown this allocation by different criteria
+					- One group for each loop of ports, aka Service
+					- ~~Or One Group for each combination of Geographic region~~
+					- ~~Or One Group for specific Origin and Destination port pairings~~
+						- ~~Place of Receipt where the product was first loaded into a box~~
+						- ~~Port of Load is where the box is first loaded onto a ship~~
+						- ~~Port of Discharge is where the Box leaves the the ship~~
+						- ~~Place of Delivery is where the product gets unloaded from the box~~
+		- **Categorize** 
+			- By a timestamp of the Vessel's Voyage usually when the Voyage leaves the last port of load
+				- Calendar
+					- ISO
+					- OPUS
+					- Gregorian
+				- Frequency
+					- Week
+					- Month
+					- Quarter
+					- Year
+			- By each Vessel Voyage
+			- For methods we need to connect the sailings to the bookings
+		- **When** does a Booking's TEUs count as progress - aka Milestone
+			- When Sailing's (Vessel/Voyage) leaves the Voyage's last port of load 
+			- Or when a Booking has **Shipped On Board**
+			- Or when a Booking has **Gated In**
+		- **How many** of the Booking's TEUs count as Progress
+			- The number of TEUs that were loaded onto the Booking's Port of Load
+				- TEUs **Confirmed** by the Carrier to provide to the shipper
+				- TEUs that have been **Canceled** for one reason or another
+				- TEUs that left or **Gated Out** the Port of Load to get filled with product
+				- TEUs that have been filled and reentered the port load or **Gated In**
+				- TEUs that have been **Loaded** onto a ship at the Port of Load
+				- TEUs  that left the Port of Load or **Shipped on Board**.
+	- **Goal**
+		- The Allocation defined on each Sailing
+	- **Progress**
+		- The TEUs tied to each booking
+		- Different points in the TEUs
+- How we build the charts
+	- Originally in 2.0
+		- Two microservices would build the charts at runtime
+			- First Microservice would 
+				- Receive the API call
+				- It would organize the chart into the categories/bars
+				- It would add the goal for each bar
+				- Make an API Call to the second microservice
+					- By building a JSON array with one element for each bar in the bar chart
+						- So one per week/month/quarter/year in the contract's duration
+						- Or one per vessel voyage in the contract's duration
+			- Second Microservice would
+				- Collect all Bookings on the contract regardless if how the Chart is organized
+				- In Application memory 
+					- For each Booking
+						- We would need to connect it to lane by searching every lane on the contract provided to us in the API Call
+						- If the lane is not in the chart we were looking at we'd skipped processing the booking
+						- If it was in the chart then we would need to search every bar on the chart to find the one that booking would fall into 
+					- For a O(# of Bookings * # of Lanes * # bars/periods/categories)
+							- aka O(shit)
+						- 
